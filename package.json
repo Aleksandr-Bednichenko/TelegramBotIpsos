@@ -1,0 +1,28 @@
+{
+  "name": "TelegramBotIpsos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksandr-Bednichenko/TelegramBotIpsos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksandr-Bednichenko/TelegramBotIpsos/issues"
+  },
+  "homepage": "https://github.com/Aleksandr-Bednichenko/TelegramBotIpsos#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.11.2"
+  }
+}
