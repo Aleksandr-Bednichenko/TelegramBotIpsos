@@ -236,7 +236,6 @@ bot.action('btn_21', async (ctx) => {
         console.error(e)
     }
 })
-
 bot.on('quit', (ctx) => ctx.reply('Оберіть емодзі, яке передає ваше ставлення до шампуню Garnier.'))
 
 bot.launch()
