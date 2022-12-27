@@ -232,12 +232,13 @@ bot.action('btn_21', async (ctx) => {
     try {
          await ctx.answerCbQuery()
          await ctx.reply('Зробіть фотографію вашого шампуню і додайте фото.')
+         console.log(cxt);
         } catch (e) {
         console.error(e)
     }
 })
 bot.on('quit', (ctx) => ctx.reply('Оберіть емодзі, яке передає ваше ставлення до шампуню Garnier.'))
-
+console.log(cxt);
 bot.launch()
 process.once('SIGINT', () => bot.stop('SIGINT'))
 process.once('SIGTERM', () => bot.stop('SIGTERM'))
